@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -60,9 +61,11 @@ nav ul li {
     font-size: 16px;
 }
 h1 {
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 10px; 
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Poiret One', cursive;
+
+
 
 
 }
@@ -107,22 +110,22 @@ h1 {
    .motto{
     
     display: grid;
-    place-items: left;
+    
     height: 50vh;
     align-items: end;
-    margin: 0 auto;
-    font-size: 322px ;
+    text-align: center;
+    font-size: 32px ;
     transition: 1s ease ;
     -webkit-transition: 1s ease ;
     -moz-transition: 1s ease ;
     -ms-transition: 1s ease ;
     -o-transition: 1s ease ;
-    font-size: 32px;
+    margin-left: auto;
 }
    span {
        color: orangered;
    }
- img{
+ .arrow{
      height: 20px;
      width: 20px;
      display: block;
@@ -153,13 +156,86 @@ h1 {
         padding-top:0px;
      } */
      0% {
-         margin-top: 100px;
+         margin-top: 90px;
      }
      50% {
          margin-top: 60px;
 
      }
      100% {
-         margin-top: 100px;
+         margin-top: 90px;
      }
  }
+
+ #dupa {
+    height: 100vh;
+}
+
+.image-certificate{
+    height: 70px;
+    width: 70px;
+    float: right;
+}
+.container-2 {
+    height: 100vh;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+ 
+.dupa123 {
+    float: left;
+}
+li:nth-child(3) a {
+    color:orange
+}   
+a {
+    text-decoration: none;
+    color: black;
+} 
+/* li:nth-child(even-parzyste odd-nieparzyste) weż element drugi,ale gdy masz np div i p to nie zadziała bo musi byc 2*/
+/* li:nth-last-of-type(wybiera 2 element ni interesuje go czy sa jakieś inne elementy) */
+.container:nth-of-type(odd){
+    background-color: black ;
+}
+.card {
+    height: 350px;
+    width: 225px;
+    background-color:black;
+    color: white;
+    word-wrap: break-word;
+    border-radius: 50px ;
+    -webkit-border-radius: 50px ;
+    -moz-border-radius: 50px ;
+    -ms-border-radius: 50px ;
+    -o-border-radius: 50px ;
+    border:2px solid black;
+    -webkit-border-radius: 20px ;
+    
+}
+
+.card:nth-child(odd){
+    background-color:#001f3f;
+}
+.card:nth-child(even){
+background-color: #FF4136
+;
+}
+
+#nw {
+    height: 100vh;
+    overflow: hidden;
+}
+.iteam-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 25vh;
+    }
+   .card p {
+       margin-left: 15px ;
+       margin-top: 15px;
+       font-family: 'Roboto', sans-serif;
+
+   }
+    /* that-że */
