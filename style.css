@@ -215,10 +215,14 @@ a {
 }
 
 .card:nth-child(odd){
-    background-color:#001f3f;
+    background-color:#39CCCC;
+    color: black;
 }
 .card:nth-child(even){
-background-color: #FF4136
+background-color: #B10DC9;
+color: #DDDDDD;
+
+
 ;
 }
 
@@ -239,3 +243,13 @@ background-color: #FF4136
 
    }
     /* that-że */
+    .dupa31{
+    margin-top:170px ;
+    position: relative;
+    }
+    .dupa21 {
+        text-align: center;
+        background: #FF851B;
+        padding-top: 11px;
+        padding-bottom:12px ;
+    }
