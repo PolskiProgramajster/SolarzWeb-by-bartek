@@ -248,6 +248,7 @@ a {
 #nw {
     height: 100vh;
     overflow: hidden;
+     background-color: black;
 }
 
 .iteam-card {
@@ -343,9 +344,7 @@ a {
 }
 
 
-#nw {
-    background-color: black;
-}
+
 
 .awesome{
     background-color: black;
